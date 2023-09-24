@@ -20,8 +20,8 @@ session = DBSession()
 
 
 # Create first user
-user1 = User(name="Admin", email="pixie.czar@gmail.com",
-             picture='https://drive.google.com/open?id=1bmYCKAm8ez9gvVm-BdpXhqFboPzRpLmz')
+user1 = User(name="Admin", email="wdev733@gmail.com",
+             picture='')
 session.add(user1)
 session.commit()
 
